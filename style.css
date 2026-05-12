@@ -32,7 +32,7 @@ body {
 
 /* NAVBAR */
 .navbar {
-  background: var(--brown-dark);
+  background: #002366;
   height: var(--nav-h);
   display: flex;
   align-items: center;
@@ -128,7 +128,7 @@ body {
 
 /* HERO */
 .hero {
-  background-color: var(--brown-dark);
+  background-color: #002366;
   min-height: 80vh;
   display: flex;
   align-items: center;
@@ -146,6 +146,14 @@ body {
 }
 @media (max-width: 768px) {
   .hero-inner { grid-template-columns: 1fr; }
+}
+.hero-eyebrow {
+  font-size: 14px;
+  color: var(--gold);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  font-weight: 600;
 }
 .hero-title {
   font-size: clamp(32px, 5vw, 56px);
@@ -311,7 +319,7 @@ body {
 
 /* ORIGIN & FLAVOR */
 .origin-bg {
-  background: var(--brown-dark);
+  background: #002366;
 }
 .flavor-grid {
   display: grid;
@@ -493,7 +501,7 @@ body {
 
 /* HAMPERS */
 .hampers-bg {
-  background: var(--brown-mid);
+  background: #002366;
   color: var(--warm-white);
 }
 .hampers-grid {
@@ -664,7 +672,7 @@ body {
 
 /* FOOTER */
 .footer-main {
-  background: var(--brown-dark);
+  background: #002366;
   padding: 4rem 2rem 2rem;
   margin-top: auto;
 }
