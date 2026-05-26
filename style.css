@@ -3,7 +3,7 @@
 :root {
   --cream: #F5F0E8;
   --brown-dark: #1A0F08;
-  --brown-mid: #2C1810;
+  --brown-mid: #F5F0E6;
   --brown-light: #5C3D2E;
   --brown-lighter: #8B6347;
   --gold: #C9A84C;
@@ -221,7 +221,7 @@ body {
 .badge {
   background: var(--brown-mid);
   border: 1px solid var(--brown-light);
-  color: var(--warm-white);
+  color: var(--brown-dark);
   padding: 6px 16px;
   border-radius: 4px;
   font-size: 12px;
@@ -239,7 +239,7 @@ body {
 }
 .hero-stat {
   background: var(--brown-mid);
-  border: 1px solid var(--brown-light);
+  border: 1px solid #D4C4A8;
   border-radius: 8px;
   padding: 24px;
   text-align: center;
@@ -252,7 +252,7 @@ body {
 }
 .hero-stat-label {
   font-size: 14px;
-  color: #C4B49A;
+  color: var(--text-mid);
   margin-top: 8px;
 }
 
@@ -328,7 +328,7 @@ body {
 }
 .flavor-card {
   background: var(--brown-mid);
-  border: 1px solid var(--brown-light);
+  border: 1px solid #D4C4A8;
   border-radius: 8px;
   padding: 32px;
   transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
@@ -341,7 +341,7 @@ body {
 .flavor-origin {
   font-size: 20px;
   font-weight: 600;
-  color: var(--warm-white);
+  color: var(--brown-dark);
   margin-bottom: 8px;
   font-family: var(--font-serif);
 }
@@ -357,7 +357,7 @@ body {
 .type-arabica { background: #A8D08A; color: var(--green-mnt); }
 .flavor-elev {
   font-size: 13px;
-  color: #C4B49A;
+  color: var(--text-mid);
   margin-bottom: 16px;
   display: flex;
   align-items: center;
@@ -372,7 +372,7 @@ body {
 }
 .flavor-notes {
   font-size: 15px;
-  color: var(--warm-white);
+  color: var(--text-mid);
   line-height: 1.6;
 }
 
@@ -510,8 +510,8 @@ body {
   gap: 24px;
 }
 .hampers-card {
-  background: var(--brown-dark);
-  border: 1px solid var(--brown-light);
+  background: var(--brown-mid);
+  border: 1px solid #D4C4A8;
   border-radius: 8px;
   padding: 32px;
   position: relative;
@@ -519,7 +519,7 @@ body {
 }
 .hampers-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
 }
 .hampers-card.featured {
   border-color: var(--gold);
@@ -545,13 +545,13 @@ body {
 .hc-name {
   font-size: 22px;
   font-weight: 600;
-  color: var(--warm-white);
+  color: var(--brown-dark);
   font-family: var(--font-serif);
   margin-bottom: 8px;
 }
 .hc-sub {
   font-size: 15px;
-  color: #C4B49A;
+  color: var(--text-mid);
   margin-bottom: 24px;
 }
 .hc-items {
@@ -565,7 +565,7 @@ body {
   align-items: flex-start;
   gap: 12px;
   font-size: 14px;
-  color: var(--warm-white);
+  color: var(--text-mid);
 }
 .hc-item i {
   color: var(--gold);
